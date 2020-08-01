@@ -59,12 +59,10 @@ class handleSubmit {
   }
 }
 
-
 const form = document.getElementById("form");
 const AlertaDom = document.getElementById("alert");
 const list = document.querySelector("#list");
 const alert = new Alert();
-
 
 form.addEventListener("submit", (e) => {
   e.preventDefault();
